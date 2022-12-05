@@ -17,7 +17,7 @@ jobs:
       - run: echo $my_name	
 workflows:
   # Name the workflow "welcome"
-  welcome:
+  workflow:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
